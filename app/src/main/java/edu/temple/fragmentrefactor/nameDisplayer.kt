@@ -26,7 +26,7 @@ class nameDisplayer : Fragment() {
                     val name = nameEditText.text
 
                     displayTextView.text = if (name.isNotBlank()) {
-                        "Hello, $name!"
+                        "Hello, $name"
                     } else {
                         "Please enter your name"
                     }
